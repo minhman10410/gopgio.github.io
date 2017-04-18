@@ -13,7 +13,8 @@ hr{
 	height:1px;
 	background-color:#85adad;
 	}
-	
+
+/*HEADER DIV*/	
 .header_container{
 	position:relative; /* khi tang kich co no se khong de len cac doi tuong khac */
 	overflow:hidden;
@@ -75,11 +76,11 @@ button:hover{
 	-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(102, 175, 233, 0.6);
 	box-shadow:inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(103, 175, 233, 0.6);
 	}
+/*END HEADER DIV*/
 
 
 
-
-
+/*BANNER*/
 .slideImage_container{
 	position:absolute;
 	float:left;
@@ -163,7 +164,7 @@ button:hover{
 	96%{left:0}
 	100%{left:0}
 	} */
-	
+/*END BANNER*/
 
 
 
@@ -184,7 +185,8 @@ button:hover{
 	overflow:hidden;
 	}
 
-/* BOJECT */
+/* OBJECT */
+/*Khung chứa Object*/
 .object_container{
 	margin-bottom:4%;
 	margin-left:1.8%;
@@ -197,17 +199,23 @@ button:hover{
 	-moz-box-shadow:0px 0px 3px rgba(0,0,0,0.4);
 	box-shadow:0px 0px 3px rgba(0,0,0,0.4);
 	}
+
+	
+/*Hình ảnh Object*/
 .object_container img{
-	margin:0%;
 	max-width:100%;
 	max-height:auto;
 	}
+	
+/*Khung hiển thị các mức tiền*/
 .object_statusDonateBorder{
 	margin-top:5%;
 	margin-left:1%;
 	width:98%;
 	border-radius:0px;
 	}
+	
+/*Hiển thị số tiền hiện được quyên góp*/
 .object_donatedMoney{
 	margin-left:0%;
 	padding:1px 5px;
@@ -215,9 +223,11 @@ button:hover{
 	color:#669999;
 	/*Tao khung cho chu*/
 	/*text-shadow:1px 0px 0 #fff, -1px 0px 0 #fff, 0px 1px 0 #fff, 0px -1px 0 #fff, 1px 1px 0 #fff, -1px -1px 0 #fff, -1px 1px 0 #fff, 1px -1px 0 #fff;*/
-	font-family:"Courier New", Courier, monospace;
+	font-family:Consolas;
 	display:inline;
 	}
+	
+/*Hiển thị số tiền cần*/
 .object_donateNeeding{
 	margin-left:0%;
 	padding:1px 5px;
@@ -226,24 +236,34 @@ button:hover{
 	color:#2ad0a2;
 	/*Tao khung cho chu
 	text-shadow:1px 0px 0 #2ad0a2, -1px 0px 0 #2ad0a2, 0px 1px 0 #2ad0a2, 0px -1px 0 #2ad0a2, 1px 1px 0 #2ad0a2, -1px -1px 0 #2ad0a2, -1px 1px 0 #2ad0a2, 1px -1px 0 #2ad0a2;*/
-	font-family:"Courier New", Courier, monospace;
+	font-family:Consolas;
 	display:inline;
 	}
+
+/*Khung hiển thị thông tin cơ bản của Object*/
 .object_caption{
 	margin:0%;
 	width:100%;
 	height:30%;
 	}
+	
+/*Tiêu đề Object*/
 .object_title{
 	margin-left:3%;
 	text-align:left;
-	font-size:20px;
-	font-family:"Courier New", Courier, monospace;
+	font-size:22px;
+	font-family:Candara;
+	font-weight:bold;
 	}
+
+/*Chi tiết ngắn của Object*/
 .object_shortDetail{
-	margin:0%;
-	text-align:left;
-	font-family:;
+	margin-left:3%;
+	width:94%;
+	text-align:justify;
+	text-justify:inter-word;
+	font-size:16px;
+	font-family:Candara;
 	}
 .object_title a{
 	}
