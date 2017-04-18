@@ -200,6 +200,9 @@ button:hover{
 	box-shadow:0px 0px 3px rgba(0,0,0,0.4);
 	}
 
+.object_container a:hover{
+	text-decoration:none;
+	}
 	
 /*Hình ảnh Object*/
 .object_container img{
@@ -220,10 +223,10 @@ button:hover{
 	margin-left:0%;
 	padding:1px 5px;
 	font-size:22px;
-	color:#669999;
+	color:#737373;
 	/*Tao khung cho chu*/
 	/*text-shadow:1px 0px 0 #fff, -1px 0px 0 #fff, 0px 1px 0 #fff, 0px -1px 0 #fff, 1px 1px 0 #fff, -1px -1px 0 #fff, -1px 1px 0 #fff, 1px -1px 0 #fff;*/
-	font-family:Consolas;
+	font:20px/20px Consolas;
 	display:inline;
 	}
 	
@@ -236,7 +239,8 @@ button:hover{
 	color:#2ad0a2;
 	/*Tao khung cho chu
 	text-shadow:1px 0px 0 #2ad0a2, -1px 0px 0 #2ad0a2, 0px 1px 0 #2ad0a2, 0px -1px 0 #2ad0a2, 1px 1px 0 #2ad0a2, -1px -1px 0 #2ad0a2, -1px 1px 0 #2ad0a2, 1px -1px 0 #2ad0a2;*/
-	font-family:Consolas;
+	font:20px/20px Consolas;
+	text-decoration:none;
 	display:inline;
 	}
 
@@ -252,7 +256,7 @@ button:hover{
 	margin-left:3%;
 	text-align:left;
 	font-size:22px;
-	font-family:Candara;
+	font:18px/18px Sitka Text;
 	font-weight:bold;
 	}
 
@@ -262,8 +266,10 @@ button:hover{
 	width:94%;
 	text-align:justify;
 	text-justify:inter-word;
+	text-decoration:none;
 	font-size:16px;
-	font-family:Candara;
+	font:15px/20px Sitka Text;
+	color:#737373;
 	}
 .object_title a{
 	}
