@@ -172,13 +172,14 @@ button:hover{
 	width:100%;
 	height:auto;
 	display:block;
+	background-color:#f5f5f0;
 	}
 .content_div{
-	margin-top:4%;
+	margin-top:5%;
 	margin-left:8%;
 	width:84%;
 	height:auto;
-	background-color:#fff;
+	background-color:#f5f5f0;
 	/*border:1px solid #333;*/
 	overflow:hidden;
 	}
@@ -187,20 +188,19 @@ button:hover{
 .object_container{
 	margin-bottom:4%;
 	margin-left:1.8%;
-	background-color:#f0f5f5;
+	background-color:#ffffff;
 	width:350px;
 	height:auto;
 	float:left;
 	border-radius:4px;
-	/*-webkit-box-shadow:inset 0px 0px 1px 0px rgba(0,0,0,0.4); /* Safari
-	-moz-box-shadow:inset 0px 0px 1px 0px rgba(0,0,0,0.4);
-	box-shadow:inset 0px 0px 1x 0px rgba(0,0,0,0.4);*/
+	-webkit-box-shadow:0px 0px 3px rgba(0,0,0,0.4); /* Safari*/
+	-moz-box-shadow:0px 0px 3px rgba(0,0,0,0.4);
+	box-shadow:0px 0px 3px rgba(0,0,0,0.4);
 	}
 .object_container img{
 	margin:0%;
 	max-width:100%;
-	max-height:70%;
-	overflow:hidden;
+	max-height:auto;
 	}
 .object_statusDonateBorder{
 	margin-top:5%;
@@ -239,6 +239,11 @@ button:hover{
 	text-align:left;
 	font-size:20px;
 	font-family:"Courier New", Courier, monospace;
+	}
+.object_shortDetail{
+	margin:0%;
+	text-align:left;
+	font-family:;
 	}
 .object_title a{
 	}
