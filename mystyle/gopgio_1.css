@@ -1,0 +1,262 @@
+@charset "utf-8";
+/* Layout */
+<!-- HEADER
+* {
+	box-sizing:border-box;
+	}
+body{
+	width:100% !important;
+	height:100%;
+	}	
+hr{
+	border:0px;
+	height:1px;
+	background-color:#85adad;
+	}
+	
+.header_container{
+	position:relative; /* khi tang kich co no se khong de len cac doi tuong khac */
+	overflow:hidden;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:auto;
+	background:#FFF;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2); /* Safari */
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+	z-index:1;
+	}
+button{
+	position:absolute;
+	margin-top:auto;	
+	width:auto;
+	height:auto;
+	background-color:#fff;
+	border:1px solid #2ad0a2; /* khung do day 1px va co mau #2ad0a2 */
+	border-radius:25px;
+	transition:all 0.2s ease-in-out;
+	}
+button a{
+	text-decoration:none;
+	font-family:"Courier New", Courier, monospace;
+	font-size:20px;
+	color:#2ad0a2;
+	text-align:center;
+	padding:6px 10px;
+	display:block;
+	overflow:hidden;
+	white-space:nowrap;
+	}
+button a:hover, a:focus{
+	text-decoration:none;
+	color:#2ad0a2;
+	}
+button:hover{
+	border-color:#2ad0a2;
+	outline:0;
+	-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+	box-shadow:inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(103, 175, 233, 0.6);
+	}
+	
+.searching {
+	width:100%;
+	height:auto;
+	font-family:"Courier New", Courier, monospace;
+	font-size:20px;
+	padding:6px 10px;
+	border:1px solid #2ad0a2;
+	border-radius:25px;
+	transition:all 0.2s ease-in-out;
+	}
+.searching:focus{
+	border-color:#2ad0a2;
+	outline:0;
+	-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+	box-shadow:inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(103, 175, 233, 0.6);
+	}
+
+
+
+
+
+.slideImage_container{
+	position:absolute;
+	float:left;
+	top:auto;
+	left:0px;
+	width:100%;
+	height:auto; /* khong bi tran nen co de co dinh la 600px */
+	background-color:#fff;
+	}
+.caption_hi{ /* Khung caption */
+	position:relative;
+	overflow:hidden;
+	top:auto;
+	margin:0%;
+	height:300px;
+	width:100%;
+	background-color:#fff;
+	}
+.caption_hi /* Ảnh nền cho phần caption */
+{
+	background-image:url(../img/slide3.jpg); /*Vì thư mục hình nằm khác với thư mục chứa file css */
+	background-repeat:no-repeat;
+	background-size:cover;
+	}
+.texture{ /* Caption */
+	top:auto;
+	text-align:center;
+	font-family:"Courier New", Courier, monospace;
+	font-size:30px;
+	color:#444;
+	padding:6px 30px;
+	}
+.texture_border{ /* Tạo khung mờ cho caption */
+	margin:5%;
+	border-radius:5px;
+	-webkit-box-shadow: 0px 1px 5px rgba(0,0,0,0.25); /* Safari */
+	-moz-box-shadow: 0px 1px 5px rgba(0,0,0,0.25);
+	box-shadow: 0px 1px 5px rgba(0,0,0,0.25);
+  	background: rgba(255, 255, 255, 0.25);
+  	border-radius: 3px;
+	}
+
+/*	
+.slideShow{
+	overflow:hidden; /* Vì các tấm ảnh bị tràn và nằm bên phải khung slide nên phải ẩn
+	height:auto;
+	}
+.slideShow figure div{
+	width:100%;
+	float:left;
+	}
+.slideShow figure img{
+	width:20%;
+	float:left;
+	opacity:0.85;
+	}
+.slideShow figure{
+	position:relative;
+	width:500%;
+	animation: 50s slideShow infinite; /* Thoi gian de hoan thanh toan bo slide 
+	}
+@keyframes slideShow
+{
+	 /* left: 100% la ti le tam anh se chay qua la bao nhieu %...toan bo hay chi 1 phan 
+	0%{left:0}
+	10%{left:0}
+	12%{left:-100%}
+	22%{left:-100%}
+	24%{left:-200%}
+	34%{left:-200%}
+	36%{left:-300%}
+	46%{left:-300%}
+	48%{left:-400%}
+	58%{left:-400%}
+	60%{left:-300%}
+	70%{left:-300%}
+	72%{left:-200%}
+	82%{left:-200%}
+	84%{left:-100%}
+	94%{left:-100%}
+	96%{left:0}
+	100%{left:0}
+	} */
+	
+
+
+
+.content_container{
+	position:absolute;
+	width:100%;
+	height:auto;
+	display:block;
+	}
+.content_div{
+	margin-top:4%;
+	margin-left:8%;
+	width:84%;
+	height:auto;
+	background-color:#fff;
+	/*border:1px solid #333;*/
+	overflow:hidden;
+	}
+
+/* BOJECT */
+.object_container{
+	margin-bottom:4%;
+	margin-left:1.8%;
+	background-color:#f0f5f5;
+	width:350px;
+	height:auto;
+	float:left;
+	border-radius:4px;
+	/*-webkit-box-shadow:inset 0px 0px 1px 0px rgba(0,0,0,0.4); /* Safari
+	-moz-box-shadow:inset 0px 0px 1px 0px rgba(0,0,0,0.4);
+	box-shadow:inset 0px 0px 1x 0px rgba(0,0,0,0.4);*/
+	}
+.object_container img{
+	margin:0%;
+	max-width:100%;
+	max-height:70%;
+	overflow:hidden;
+	}
+.object_statusDonateBorder{
+	margin-top:5%;
+	margin-left:1%;
+	width:98%;
+	border-radius:0px;
+	}
+.object_donatedMoney{
+	margin-left:0%;
+	padding:1px 5px;
+	font-size:22px;
+	color:#669999;
+	/*Tao khung cho chu*/
+	/*text-shadow:1px 0px 0 #fff, -1px 0px 0 #fff, 0px 1px 0 #fff, 0px -1px 0 #fff, 1px 1px 0 #fff, -1px -1px 0 #fff, -1px 1px 0 #fff, 1px -1px 0 #fff;*/
+	font-family:"Courier New", Courier, monospace;
+	display:inline;
+	}
+.object_donateNeeding{
+	margin-left:0%;
+	padding:1px 5px;
+	font-size:22px;
+	font-weight:bold;
+	color:#2ad0a2;
+	/*Tao khung cho chu
+	text-shadow:1px 0px 0 #2ad0a2, -1px 0px 0 #2ad0a2, 0px 1px 0 #2ad0a2, 0px -1px 0 #2ad0a2, 1px 1px 0 #2ad0a2, -1px -1px 0 #2ad0a2, -1px 1px 0 #2ad0a2, 1px -1px 0 #2ad0a2;*/
+	font-family:"Courier New", Courier, monospace;
+	display:inline;
+	}
+.object_caption{
+	margin:0%;
+	width:100%;
+	height:30%;
+	}
+.object_title{
+	margin-left:3%;
+	text-align:left;
+	font-size:20px;
+	font-family:"Courier New", Courier, monospace;
+	}
+.object_title a{
+	}
+.object_title a:focus{}
+.object_title a:hover{}
+
+
+
+.footer_container{
+	margin-top:1%;
+	margin-left:5%;
+	width:90%;
+	height:auto;
+	overflow:hidden;
+	background-color:#fff;
+	border-radius:5px;
+	/*Tạo bóng cho khung viền 
+	-webkit-box-shadow:inset 0px 0px 1px 0px rgba(0,0,0,0.4); /* Safari 
+	-moz-box-shadow:inset 0px 0px 1px 0px rgba(0,0,0,0.4);
+	box-shadow:inset 0px 0px 1x 0px rgba(0,0,0,0.4);*/
+	}
