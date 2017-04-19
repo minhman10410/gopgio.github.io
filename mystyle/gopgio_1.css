@@ -101,7 +101,7 @@ button:hover{
 	}
 .caption_hi /* Ảnh nền cho phần caption */
 {
-	background-image:url(../img/slide3.jpg); /*Vì thư mục hình nằm khác với thư mục chứa file css */
+	background-image:url(../img/slide_31.jpg); /*Vì thư mục hình nằm khác với thư mục chứa file css */
 	background-repeat:no-repeat;
 	background-size:cover;
 	}
@@ -186,6 +186,27 @@ button:hover{
 	}
 
 /* OBJECT */
+/*Gây quỹ cho gopGIO*/
+/*Sẽ mở rộng sau
+.object_quygopGIO{
+	margin-top:0%;
+	margin-left:1.8%;
+	width:96.2%;
+	height:auto;
+	float:left;
+	overflow:hidden;
+	background-color:#ffffff;
+	border-radius:5px;
+	box-shadow:0px 1px 5px rgba(0,0,0,0.4);
+	}
+.title_quygopGIO{
+	width:100%;
+	height:auto;
+	text-align:center;
+	padding:6px 20px;
+	font:20px/20px "Courier New", Courier, monospace;
+	}
+*/	
 /*Khung chứa Object*/
 .object_container{
 	margin-bottom:4%;
@@ -279,15 +300,11 @@ button:hover{
 
 
 .footer_container{
-	margin-top:1%;
-	margin-left:5%;
-	width:90%;
-	height:auto;
+	background-image:url(../img/slide_3.jpg); /*Vì thư mục hình nằm khác với thư mục chứa file css */
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:100%;
+	height:200px;
 	overflow:hidden;
 	background-color:#fff;
-	border-radius:5px;
-	/*Tạo bóng cho khung viền 
-	-webkit-box-shadow:inset 0px 0px 1px 0px rgba(0,0,0,0.4); /* Safari 
-	-moz-box-shadow:inset 0px 0px 1px 0px rgba(0,0,0,0.4);
-	box-shadow:inset 0px 0px 1x 0px rgba(0,0,0,0.4);*/
 	}
