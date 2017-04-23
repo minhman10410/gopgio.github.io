@@ -86,7 +86,7 @@ hr{
 
 
 /*BANNER*/
-.slideImage_container{
+.content_all{
 	position:absolute;
 	float:left;
 	top:auto;
@@ -232,7 +232,7 @@ hr{
 	height:auto;
 	background:#444444;
 	border:1px solid #444444;
-	border-radius:5px;
+	border-radius:6px;
 	transition:all 0.2s ease-in-out;
 	}
 .object_container button:hover{
@@ -316,7 +316,7 @@ hr{
 	margin-left:3%;
 	text-align:left;
 	font-size:22px;
-	font:18px/18px Sitka Text;
+	font:21px/22px Sitka Text;
 	font-weight:bold;
 	}
 
