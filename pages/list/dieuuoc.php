@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap-theme.css">
     <link rel="stylesheet" type="text/css" href="../../mystyle/gopgio_1.css">
     <link rel="stylesheet" type="text/css" href="../../mystyle/gopgio_2.css">
-    <title>Góp Gió - Cho đi là nhận lại</title>
+    <title>Điều ước</title>
 <title>Untitled Document</title>
 </head>
 
